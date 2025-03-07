@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap');
+:root{
+    --Moderate-violet: hsl(263, 55%, 52%);
+--Very-dark-grayish-blue: hsl(217, 19%, 35%);
+--Very-dark-blackish-blue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+
+
+
+--Light-gray: hsl(0, 0%, 81%);
+--Light-grayish-blue: hsl(210, 46%, 95%);
+ font-family: "Barlow Semi Condensed", serif;
+  font-family: "Barlow Semi Condensed", serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+body{
+    overflow-y: hidden;
+}
+
+/* ---------------main-------------- */
+main{
+    
+    background-color: var(--Light-grayish-blue);
+   
+}
+/* ------------purplebox------------ */
+.purplebox{
+    background-color: var(--Moderate-violet);
+    color: var(--White);
+    height: 300px;
+    width: 600px;
+    border-radius: 7px;
+    left: 12rem;
+    top: 4rem;
+    position: relative;
+padding: 5px 10px;
+
+}
+.heading1 > img{
+    position: absolute;
+    border-radius: 50%;
+    top: 1rem;
+    left: 1rem;
+}
+
+.heading1> .qoute{
+    border-radius: 0;
+
+    padding-left: 25rem;
+    
+}
+.mean{
+    position: absolute;
+    left: 6rem;
+    top: 1.5rem;
+    /* display: flex; */
+
+}
+.sentence1{
+    position: absolute;
+    top: 6rem;
+}
+.sentence1 > p{
+    position: absolute;
+    top: 6rem;
+}
+/* ------------------lightgrey--------------- */
+.lightgrey{
+    background-color: var(--Very-dark-grayish-blue);
+    color: var(--White);
+    height: 300px;
+    width: 250px;
+    border-radius: 7px;
+    position: relative;
+    padding: 5px 5px;
+    left: 51rem;
+    bottom: 14.5rem;
+}
+.heading2 > img {
+    position: absolute;
+    border-radius: 50%;
+    top: 1rem;
+    left: 1rem;
+}
+.mean1{
+    position: absolute;
+    left: 5rem;
+    top: 1.5rem;
+}
+.sentence2{
+    position: absolute;
+    top: 5rem;
+    left: 10px;
+}
+.sentence2 > p{
+    position: absolute;
+    top: 6rem;
+}
+/* ---------------white1------------- */
+.white1{
+    background-color: var(--White);
+    color: var(--Very-dark-grayish-blue);
+    height: 300px;
+    width: 250px;
+    position: relative;
+    bottom: 13rem;
+    left: 12rem;
+    border-radius: 7px;
+   
+}
+.heading3 > img{
+    position: absolute;
+    border-radius: 50%;
+    top: 1rem;
+    left: 1rem;
+}
+.mean2{
+    position: absolute;
+    left: 6rem;
+    top: 1.5rem;
+}
+.sentence3{
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+}
+.sentence3 > p{
+    position: absolute;
+    top: 7rem;
+}
+/* --------------darkgrey----------------- */
+.darkgrey{
+    background-color: var(--Very-dark-blackish-blue);
+    height: 300px;
+    width: 600px;
+    color: var(--White);
+    border-radius: 7px;
+    bottom: 32rem;
+    left: 29rem ;
+    
+    position: relative;
+}
+.heading4 > img{
+    position: absolute;
+    border-radius: 50%;
+    top: 1rem;
+    left: 1rem;
+
+}
+.mean3{
+    position: absolute;
+    left: 6rem;
+    top: 1.5rem;
+}
+.sentence4{
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+}
+.sentence4 > p{
+    position: absolute;
+    top: 6rem;
+}
+/* ---------------white2------------ */
+.white2{
+    background-color: var(--White);
+    height: 620px;
+    width: 250px;
+    color: var(--Very-dark-grayish-blue);
+    border-radius: 7px;
+    position: relative;
+    
+    bottom: 71rem;
+    left: 68rem;
+}
+
+.heading5 > img{
+    position: absolute;
+    border-radius: 50%;
+    top: 1rem;
+    left: 1rem;
+
+}
+.mean4{
+    position: absolute;
+    left: 6rem;
+    top: 1.5rem ;
+}
+.sentence5{
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+
+}
+.sentence5 > p{
+    position: absolute;
+    top: 6rem;
+}
+/* --------------mobile------------- */
+
+@media (max-width:375px) {
+    body{
+        overflow-y: auto;
+    }
+main{
+   
+    height: 330vh;
+    
+}
+.purplebox{
+    width: 340px;
+    height: 450px;
+    left: 16px;
+
+
+}
+.heading1> .qoute{
+    padding-left: 12rem;
+}
+.sentence1 > p{
+    top: 10rem;
+}
+.lightgrey{
+    width: 340px;
+    height:280px ;
+    left: 16px;
+    top: 5.5rem;
+}
+.white1{
+    width: 340px;
+    left: 16px;
+    top: 7rem;
+}
+.darkgrey{
+    width: 340px;
+    height: 450px;
+    left: 16px;
+    top: 9rem;
+}
+.sentence4 > p{
+
+    top: 10rem;
+}
+.white2{
+    width: 340px;
+    left: 16px;
+    top: 11rem;
+}
+}
